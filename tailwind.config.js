@@ -12,7 +12,8 @@ export default {
 				white99: '#fafafa',
 				white: '#FFFFFF',
 				gray1: 'rgba(15, 19, 36, 0.6)',
-				gray2: 'rgba(244,244,244,1)'
+				gray2: 'rgba(244,244,244,1)',
+				gradient2: 'linear-gradient(90deg, #FAFAFA 100%, #FAFAFA 0%)'
 			},
 			backgroundImage: {
 				pattern: "url('./assets/img/pattern.png')",
