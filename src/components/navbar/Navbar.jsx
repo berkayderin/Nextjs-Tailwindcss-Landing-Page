@@ -2,8 +2,8 @@ import logo from '../../assets/img/logo.png'
 
 const Navbar = () => {
 	return (
-		<div className="fixed top-0 left-0 z-[999] px-4 w-full mt-5">
-			<div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-20 bg-cwhite bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-md border border-white border-opacity-40 rounded-2xl md:w-[60rem] h-[6rem] p-3 md:p-5 m-auto">
+		<div className="top-0 left-0 z-[999] px-4 w-full mt-5 bg-pattern bg-cover bg-center bg-no-repeat h-[20rem]">
+			<div className="flex flex-col md:flex-row justify-between items-center gap-4 md:gap-20 bg-cwhite bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-md border border-white border-opacity-40 rounded-2xl md:w-[60rem] h-[6rem] md:h-[5rem] p-3 md:p-5 m-auto">
 				<div>
 					<img src={logo} alt="Logo" className="w-[132px] h-[32px]" />
 				</div>

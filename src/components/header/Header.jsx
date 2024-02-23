@@ -2,7 +2,7 @@ import hello from '../../assets/img/hello.png'
 
 const Header = () => {
 	return (
-		<div className="bg-pattern bg-cover bg-center flex justify-center items-center p-4 md:p-0 mt-36">
+		<div className="flex justify-center items-center p-4 md:p-0 z-50 -mt-40">
 			<div className="text-center flex flex-col gap-3 items-center px-4 md:px-0">
 				<div className="flex flex-row gap-3 justify-center items-center">
 					<p className="text-base md:text-xl text-gray1 font-medium px-2">

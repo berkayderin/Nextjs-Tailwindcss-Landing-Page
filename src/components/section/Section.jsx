@@ -15,22 +15,22 @@ const Section = () => {
 				</p>
 			</div>
 			<div className="flex flex-col sm:flex-row gap-4 sm:gap-3 items-center justify-center">
-				<div className="bg-card items-center justify-center rounded-lg p-4 sm:p-5 text-center flex flex-col gap-4 sm:gap-5 shadow-white bg-vector border-white border-solid border-2">
+				<div className="bg-card items-center justify-center rounded-2xl p-4 sm:p-5 text-center flex flex-col gap-4 sm:gap-5 shadow-white bg-vector border-white border-solid border-2">
 					<img src={icons} alt="Icons" className="w-12 sm:w-auto" />
 					<div className="flex flex-col gap-2 sm:gap-3">
 						<p className="font-semibold text-xl sm:text-2xl">Seller Title</p>
-						<p className="text-gray text-sm sm:text-base">
+						<p className="text-gray1 mb-2 text-sm sm:text-base">
 							Organise all of the important information and data <br />
 							into what I call KPIs (Key Performance Indicators).
 						</p>
 						<button className="bg-blue rounded-lg shadow-sm shadow-blue w-full p-2 sm:p-1 text-white">Im Seller</button>
 					</div>
 				</div>
-				<div className="bg-card items-center justify-center rounded-lg p-4 sm:p-5 text-center flex flex-col gap-4 sm:gap-5 border-white border-solid border-2">
+				<div className="bg-card items-center justify-center rounded-2xl p-4 sm:p-5 text-center flex flex-col gap-4 sm:gap-5 border-white border-solid border-2">
 					<img src={icons} className="w-12 sm:w-auto" alt="Icons" />
 					<div className="flex flex-col gap-2 sm:gap-3">
 						<p className="font-semibold text-xl sm:text-2xl">Buyer Title</p>
-						<p className="text-gray text-sm sm:text-base">
+						<p className="text-gray1 mb-2 text-sm sm:text-base">
 							Organise all of the important information and data <br />
 							into what I call KPIs (Key Performance Indicators).
 						</p>
